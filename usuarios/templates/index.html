@@ -1,0 +1,70 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Título da Página</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+  </head>
+  <body>
+
+<header class="site-header">
+    <h1>The Beatles</h1>
+    <p>A maior banda de rock de todos os tempos</p>
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#albuns">Álbuns Icônicos</a></li>
+    </ul>
+</nav>
+
+<main class="content">
+    <section id="historia">
+        <h2>A Banda</h2>
+        <p>Formada em Liverpool em 1960, a banda integrou John Lennon, Paul McCartney, George Harrison e Ringo Starr. Eles se tornaram o grupo mais aclamado e influente da era do rock.</p>
+    </section>
+
+    <section id="integrantes">
+        <h2>Integrantes</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>John Lennon</h3>
+                <p>Vocal e Guitarra rítmica</p>
+            </div>
+            <div class="card">
+                <h3>Paul McCartney</h3>
+                <p>Vocal e Baixo</p>
+            </div>
+            <div class="card">
+                <h3>George Harrison</h3>
+                <p>Guitarra solo e Vocal</p>
+            </div>
+            <div class="card">
+                <h3>Ringo Starr</h3>
+                <p>Bateria e Vocal</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="albuns">
+        <h2>Álbuns Icônicos</h2>
+        <ul>
+            <li>Abbey Road (1969)</li>
+            <li>Sgt. Pepper's Lonely Hearts Club Band (1967)</li>
+            <li>Revolver (1966)</li>
+            <li>Rubber Soul (1965)</li>
+        </ul>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>; 2026 - Tributo aos Beatles</p>
+</footer>
+
+  </body>
+</html>
